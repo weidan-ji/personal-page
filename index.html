@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weidan Ji</title>
+    <meta
+      name="description"
+      content="Personal academic homepage of Weidan Ji, a cryptography researcher working on lattice-based cryptography and identity-based encryption."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#home" data-view-link="home">Weidan Ji</a>
+        <nav aria-label="Main navigation">
+          <a href="#home" data-view-link="home">Home</a>
+          <a href="#publications" data-view-link="publications">Publications</a>
+          <a href="#cv" data-view-link="cv">CV</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top" class="page">
+      <aside class="profile">
+        <img class="portrait" src="assets/weidan-ji.jpeg" alt="Portrait of Weidan Ji">
+        <h1>Weidan Ji</h1>
+        <p class="name-cn">季炜丹</p>
+        <p class="role">Ph.D. Candidate</p>
+        <p class="affiliation">Shanghai Jiao Tong University</p>
+
+        <div class="contact-list" aria-label="Contact links">
+          <a href="mailto:jiweidan@sjtu.edu.cn">Email</a>
+        </div>
+      </aside>
+
+      <section class="content">
+        <div class="view is-active" id="home" data-view="home">
+          <section id="about" class="section intro">
+            <h2>About</h2>
+            <p>
+              I am a Ph.D. candidate in Computer Science at Shanghai Jiao Tong University,
+              advised by Prof. Dawu Gu and Prof. Zhedong Wang. Before that, I received
+              my B.Sc. in Software Engineering and Law from Shandong University.
+            </p>
+            <p>
+              My research focuses on lattice-based cryptography, especially secure and
+              efficient identity-based encryption in the standard model. My broader
+              interests include public-key encryption, attribute-based encryption,
+              digital signatures, group and ring signatures, blind and threshold
+              signatures, and post-quantum key exchange protocols.
+            </p>
+            <p>
+              I have been a research intern at CISPA Helmholtz Center for Information
+              Security, hosted by Doreen Riepel, and at the ECO group of LIRMM/CNRS,
+              hosted by Katharina Boudgoust.
+            </p>
+          </section>
+        </div>
+
+        <div class="view" id="publications" data-view="publications">
+          <section class="section">
+            <h2>Publications</h2>
+
+            <div class="publication">
+              <div class="pub-year">ASIACRYPT 2025</div>
+              <div class="pub-main">
+                <h3>
+                  Revisiting Adaptively Secure IBE from Lattices with Smaller Modulus:
+                  A Conceptually Simple Framework with Low Overhead
+                </h3>
+                <p><strong>Weidan Ji</strong>, Zhedong Wang, Lin Lyu, Dawu Gu.</p>
+                <div class="pub-links">
+                  <a href="https://eprint.iacr.org/2025/1466">ePrint</a>
+                  <a href="https://drive.google.com/file/d/1e0ys3QAAJkQX7WcunN2tXa_-Uzj5AYzg/view?usp=sharing">Slides</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="publication">
+              <div class="pub-year">PKC 2025</div>
+              <div class="pub-main">
+                <h3>Adaptively Secure IBE from Lattices with Asymptotically Better Efficiency</h3>
+                <p><strong>Weidan Ji</strong>, Zhedong Wang, Lin Lyu, Dawu Gu.</p>
+                <div class="pub-links">
+                  <a href="https://eprint.iacr.org/2025/253">ePrint</a>
+                  <a href="https://iacr.org/submit/files/slides/2025/pkc/pkc2025/138/138_slides.pdf">Slides</a>
+                  <a href="https://www.youtube.com/watch?v=SqWLYc2ZV9k&t=25s">Video</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="publication">
+              <div class="pub-year">SAC 2024</div>
+              <div class="pub-main">
+                <h3>Identity-Based Encryption from Lattices with More Compactness in the Standard Model</h3>
+                <p><strong>Weidan Ji</strong>, Zhedong Wang, Haoxiang Jin, Qi Wang, Geng Wang, Dawu Gu.</p>
+                <div class="pub-links">
+                  <a href="https://eprint.iacr.org/2024/1295">ePrint</a>
+                  <a href="https://github.com/WeidanJi/mntru_ibe">Code</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="view" id="cv" data-view="cv">
+          <section class="section">
+            <div class="cv-heading">
+              <div>
+                <h2>Curriculum Vitae</h2>
+                <p>The PDF version of my CV is available below.</p>
+              </div>
+              <a class="download-link" href="assets/CV.pdf">Open PDF</a>
+            </div>
+
+            <a class="cv-preview" href="assets/CV.pdf" aria-label="Open CV PDF">
+              <img src="assets/cv-preview.png" alt="Preview of Weidan Ji's CV">
+            </a>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Last updated: June 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
